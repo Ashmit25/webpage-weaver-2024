@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Inter-bold;
+  src: url(../fonts/Inter-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter-Regular.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  --primary: #42ff93;
+  --secondary: #42ff93;
+  --accent: #33ae68;
+  --text: #d1d1d1;
+  --background: #000000;
+}
+
+* {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: Inter;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Inter-bold;
+  font-size: 40px;
+  color: var(--primary);
+}
+
+main {
+  text-align: center;
+}
+
+main > h1 {
+  font-size: 70px;
+  font-family: Inter-bold;
+  color: #42ff93;
+}
+
+main > a {
+  color: inherit;
+  background-color: transparent;
+}
+
+form {
+  max-width: 500px;
+  width: 95%;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

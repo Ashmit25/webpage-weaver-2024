@@ -1,0 +1,35 @@
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 4rem;
+    flex-wrap: wrap-reverse;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.product:first-child {
+    padding-top: 2rem;
+}
+
+.productcontent {
+    width : 400px;
+}
+
+.know {
+    color: var(--primary);
+}
+
+.know:hover {
+    color: var(--accent);
+}
+.productnum {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    padding-bottom: 7rem;
+}
+
+.prodtext {
+    max-width: 50%;
+}
