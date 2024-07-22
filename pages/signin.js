@@ -30,7 +30,7 @@ function signup() {
           </div>
         </form>
         <div className={styles.inputgroup}>
-          Don't Have An Account?{" "}
+          Don&apos;t Have An Account?{" "}
           <Link className={styles.signlink} href="/signup">
             Sign Up
           </Link>
